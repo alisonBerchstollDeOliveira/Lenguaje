@@ -8,6 +8,7 @@ public class Persona {
 	//Atributos
 	private int id;
 	private String documento;
+	private String nombre;
 	private String direccion;
 	private String telefono;
 	private int sexo;
@@ -16,6 +17,7 @@ public class Persona {
 	public Persona() {
 		this.id=0;
 		this.direccion="";
+		this.nombre="";
 		this.documento="";
 		this.telefono="";
 		this.sexo=0;
@@ -69,6 +71,14 @@ public class Persona {
 
 	public void setSexo(int sexo) {
 		this.sexo = sexo;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 	
 	
