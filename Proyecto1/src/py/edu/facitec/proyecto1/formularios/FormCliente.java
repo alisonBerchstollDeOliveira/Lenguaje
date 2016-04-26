@@ -150,8 +150,9 @@ public class FormCliente extends JDialog {
 		Cliente cliente = new Cliente();
 		cliente.setDocumento(tfDocumento.getText());
 		cliente.setNombre(tfNombre.getText());
+		clien
 		
 		
-		ClienteDao.guardarCliente(cliente); //Seteamos el valor
+		//ClienteDao.guardarCliente(cliente); //Seteamos el valor
 	}
 }
